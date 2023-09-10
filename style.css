@@ -2,14 +2,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Shippori Mincho", serif;
 }
 
 .navbar-brand {
   font-size: 3rem;
-  color: rgb(3, 57, 133);
-  font-family: "Lora", serif;
+  color: rgb(7, 39, 71);
 }
-
 .navbar-brand:hover {
   color: rgb(7, 39, 71);
 }
@@ -17,15 +16,13 @@
 .nav-link {
   margin-left: 10px;
   margin-right: 10px;
-  color: rgb(3, 57, 133);
+  color: rgb(1, 44, 86);
   text-transform: uppercase;
   font-size: 1.6rem;
-  font-family: "Cormorant Garamond", serif;
 }
 
 .nav-link:hover {
-  color: rgb(7, 39, 71);
-  transition: 0.5s;
+  color: rgb(1, 14, 35);
   text-decoration: underline;
 }
 
@@ -34,7 +31,7 @@
   width: 100%;
   border-radius: 60px;
   outline: none;
-  border: 2px solid rgb(5, 72, 134);
+  border: 2px solid rgb(1, 14, 35);
   margin-right: 20px; /*space between the search bar and the search button*/
 }
 
@@ -43,7 +40,7 @@
   width: 70%;
   outline: none;
   border: none;
-  background-color: rgb(5, 72, 134);
+  background-color: rgb(1, 14, 35);
   color: rgb(255, 255, 255);
   font-weight: 700;
   border-radius: 60px;
@@ -59,14 +56,14 @@
 .main h1 {
   font-size: 4rem;
   font-weight: 700;
-  color: rgb(12, 6, 49);
+  color: rgb(4, 30, 53);
 }
 .btn1 {
   height: 45px;
   width: 20%;
   border: none;
   outline: none;
-  background-color: rgb(5, 72, 134);
+  background-color: rgb(1, 14, 35);
   color: rgb(255, 255, 255);
   font-weight: 700;
   border-radius: 60px;
@@ -74,14 +71,30 @@
 .btn1:hover {
   background-color: rgb(4, 36, 66);
 }
+
+.new h5 {
+  color: rgb(114, 6, 41);
+}
+
+.product {
+  font-family: "Shippori Mincho", serif;
+}
 .product h1 {
-  color: rgb(101, 3, 52);
-  font-family: "Playfair Display", serif;
+  color: rgb(114, 6, 41);
+
   font-weight: 500;
 }
+.product h5 {
+  color: rgb(114, 6, 41);
+}
+
 .product h6 {
   color: rgb(167, 14, 91);
 }
+.product p {
+  color: rgb(167, 14, 91);
+}
+
 .card:hover {
   box-shadow: 2px 1px 35px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 2px 1px 35px 0px rgba(0, 0, 0, 0.75);
@@ -129,4 +142,10 @@
   font-size: 2.5rem;
   cursor: pointer;
   padding-right: 5px;
+}
+
+.about {
+  font-family: "Shippori Mincho", serif;
+  font-weight: 500;
+  color: rgb(114, 6, 41);
 }
