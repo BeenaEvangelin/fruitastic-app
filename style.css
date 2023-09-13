@@ -149,3 +149,18 @@
   font-weight: 500;
   color: rgb(114, 6, 41);
 }
+
+.shop {
+  font-weight: 500;
+}
+.shop h5 {
+  color: rgb(255, 179, 0);
+}
+
+.shop p {
+  color: rgb(137, 135, 64);
+}
+
+.Contact {
+  color: rgb(2, 34, 33);
+}
