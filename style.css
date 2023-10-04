@@ -101,7 +101,7 @@
   -moz-box-shadow: 2px 1px 35px 0px rgba(0, 0, 0, 0.75);
 }
 
-.apple {
+.fruits {
   background: url(./fruitastic-images/fruitsInBowl.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
